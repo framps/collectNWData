@@ -1,0 +1,13 @@
+[Desktop Entry]
+Comment=
+Comment[de]=
+Encoding=UTF-8
+Exec="§/collectNWDataGUI.sh"
+Icon=§/collectNWDataGUI.jpg
+Path=§
+Name=collectNWDataGUI
+Name[de]=collectNWDataGUI
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application

@@ -1,0 +1,376 @@
+# German translations for PACKAGE package.
+# Copyright (C) 2012 ORGANIZATION
+# framp <framp@linux-tips-and-tricks.de>, 2012.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-11-04 13:11+CET\n"
+"PO-Revision-Date: 2012-10-14 22:21+0100\n"
+"Last-Translator: framp <framp@linux-tips-and-tricks.de>\n"
+"Language-Team: German\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.5\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: collectNWDataGUI.py:168
+msgid "Unable to derive desktop path"
+msgstr ""
+"Das Arbeitsplatzverzeichnis kann nicht ermittelt werden. xdg-user-dir ist "
+"nicht installiert"
+
+#: collectNWDataGUI.py:284
+msgid "Unable to calculate md5sum"
+msgstr "Die Prüfsumme von collectNWDataGUI.sh kann nicht berechnet werden. RC: %s"
+
+#: collectNWDataGUI.py:289
+msgid "different md5sum. Website: %s file: %s"
+msgstr "Die Prüfsumme von collectNWDataGUI.sh (%s) stimmt nicht mit der von der Webseite (%s) überein.\n"
+"Entweder existiert schon eine neuere Version von collectNWDataGUI.sh oder die Datei collectNWDataGUI.sh ist korrupt"
+
+#: collectNWDataGUI.py:291
+msgid "Unable to retrieve md5 checksum from %s. rc: %s"
+msgstr "Die Prüfsumme von %s kann nicht aus dem Internet bezogen werden. RC: %s"
+
+#: collectNWDataGUI.py:298
+msgid "%s will be uninstalled"
+msgstr "Deinstallation von %s gestartet ..."
+
+#: collectNWDataGUI.py:310
+msgid "Deleting file %s"
+msgstr "    Lösche Datei %s"
+
+#: collectNWDataGUI.py:314
+msgid "Uninstallation of %s finished"
+msgstr "Deinstallation von %s beendet"
+
+#: collectNWDataGUI.py:316
+msgid "%s not installed"
+msgstr "%s ist nicht installiert"
+
+#: collectNWDataGUI.py:323
+msgid "%s will be installed"
+msgstr "Installation von %s gestartet ..."
+
+#: collectNWDataGUI.py:331 collectNWDataGUI.py:341 collectNWDataGUI.py:350
+#: collectNWDataGUI.py:368
+msgid "Creating file %s"
+msgstr "    Erzeuge Datei %s"
+
+#: collectNWDataGUI.py:366
+msgid "Unable to create desktop start icon"
+msgstr "Es kann kein Starticon im Arbeitsplatzverzeichnis erstellt werden"
+
+#: collectNWDataGUI.py:384
+msgid "Installation of %s finished"
+msgstr "Installation von %s beendet"
+
+#: collectNWDataGUI.py:499
+msgid "Invoke script as root"
+msgstr "Scriptaufruf als root"
+
+#: collectNWDataGUI.py:500
+msgid "RootToolTip"
+msgstr ""
+"Der Aufruf des Scripts als root ist sehr zu empfehlen, da dann eine "
+"wesentlich detailliertere Problemanalyse vorgenommen werden kann"
+
+#: collectNWDataGUI.py:503
+msgid "Are you sure you want to disable root invocation"
+msgstr ""
+"<big><b>Soll die Ausführung als root wirklich ausgeschaltet werden?</b></big>"
+
+#: collectNWDataGUI.py:504
+msgid "This will reduce the analysis capabilities"
+msgstr "Damit werden mächtige Analysemöglichkeiten ausgeschlossen"
+
+#: collectNWDataGUI.py:507
+msgid "Enter root password"
+msgstr "<b><big>Bitte das root Kennwort eingeben.</big></b>"
+
+#: collectNWDataGUI.py:508
+msgid "Script should be executed as root"
+msgstr ""
+"Das Script sollte als root ausgeführt werden, da sonst verschiedene "
+"Analysemöglichkeiten ausgeschlossen werden"
+
+#: collectNWDataGUI.py:511
+msgid "Invalid root password"
+msgstr "<b><big>Es wurde ein ungültiges root Kennwort eingegeben.</big></b>"
+
+#: collectNWDataGUI.py:512
+msgid "Enter correct root password"
+msgstr "Bitte das richtige root Kennwort eingeben"
+
+#: collectNWDataGUI.py:514
+msgid "Localized messages"
+msgstr "Meldungen in lokaler Sprache"
+
+#: collectNWDataGUI.py:515
+msgid "InternationalToolTip"
+msgstr ""
+"Diese Option muss ausgeschaltet werden, um die Analyseergebnisse in einem "
+"internationalen Forum zu posten. Dann sind alle Meldungen in Englisch. "
+"Anderenfalls werden sie in der lokalen Sprache ausgegeben, sofern diese "
+"unterstützt ist und sich ein Übersetzer gefunden hat"
+
+#: collectNWDataGUI.py:517
+msgid "Wired"
+msgstr "Kabelgebunden"
+
+#: collectNWDataGUI.py:518
+msgid "WiredToolTip"
+msgstr "Auswählen, wenn ein kabelgebundener Rechner Netzwerkprobleme hat"
+
+#: collectNWDataGUI.py:519
+msgid "Wireless"
+msgstr "Drahtlos"
+
+#: collectNWDataGUI.py:520
+msgid "WirelessToolTip"
+msgstr ""
+"Auswählen, wenn ein an WLAN angeschlossener Rechner Netzwerkprobleme hat"
+
+#: collectNWDataGUI.py:522
+msgid "OK"
+msgstr "Ausführen"
+
+#: collectNWDataGUI.py:523
+msgid "OKToolTip"
+msgstr "Starten des Analysescripts collectNWData.sh"
+
+#: collectNWDataGUI.py:525
+msgid "Cancel"
+msgstr "Beenden"
+
+#: collectNWDataGUI.py:526
+msgid "CancelToolTip"
+msgstr "Beenden des Programmes"
+
+#: collectNWDataGUI.py:528
+msgid "SSIDEntryField"
+msgstr "Eingabe der SSID des Accesspoints"
+
+#: collectNWDataGUI.py:529
+msgid "SSID"
+msgstr "WLAN Kennung"
+
+#: collectNWDataGUI.py:530
+msgid "SSIDToolTip"
+msgstr "Die SSID ist die WLAN Kennung des eigenen WLAN"
+
+#: collectNWDataGUI.py:532
+msgid "SSID missing"
+msgstr "<b><big>Die WLAN SSID wurde nicht eingegeben.</big></b>"
+
+#: collectNWDataGUI.py:533
+msgid "Please enter SSID of your accesspoint"
+msgstr "Bitte die WLAN SSID des Accesspoints eingeben"
+
+#: collectNWDataGUI.py:535
+msgid "Topology"
+msgstr "Netztopologie"
+
+#: collectNWDataGUI.py:536
+msgid "TopologyToolTip"
+msgstr ""
+"Die Topologie beschreibt die Verbindungen zwischen den beteiligten "
+"Netzwerkkomponenten. Weitere Details zur Topologie erscheinen im Auswahlmenu "
+"rechts"
+
+#: collectNWDataGUI.py:537
+msgid "TopologyComboToolTip"
+msgstr ""
+"Auswahl der Topologie der Netzwerkumgebung\n"
+"\n"
+"1) Der zu untersuchende Zielrechner ist direkt an einen WLAN Accesspoint "
+"angeschlossen\n"
+"2) Der zu untersuchende Zielrechner ist direkt an einen WLAN Router "
+"angeschlossen, der auch einen Accesspoint beinhaltet\n"
+"3) Wie 1, nur dass noch ein Linuxrouter dazwischen angeschlossen ist\n"
+"4) Wie 2, nur dass noch ein Linuxrouter dazwischen angeschlossen ist"
+
+#: collectNWDataGUI.py:539
+msgid "Execution"
+msgstr "Ausführungshost"
+
+#: collectNWDataGUI.py:540
+msgid "ExecutionToolTip"
+msgstr "Angabe, auf welchem Rechner das Script ausgeführt wird"
+
+#: collectNWDataGUI.py:541
+msgid "ExecutionComboToolTip"
+msgstr ""
+"Auswahl des Rechners, auf dem das Script ausgeführt wird. Das ist entweder "
+"der Zielrechner oder der dazwischenliegende Linuxrouter"
+
+#: collectNWDataGUI.py:542
+msgid "Connection type"
+msgstr "Verbindungstyp"
+
+#: collectNWDataGUI.py:544
+msgid "Network problem analysis complete"
+msgstr "<b><big>Netzwerkproblemanalyse beendet</big></b>"
+
+#: collectNWDataGUI.py:545
+msgid "Please execute following steps"
+msgstr ""
+"<b>1)</b> Lies die Analyseergebnisse auf der <u>Analyseergebnisseite</u>, "
+"folge den Anleitungen und versuche erst, das Problem selbst zu lösen. <b>\n"
+"\n"
+"2)</b> Wenn Du keinen Erfolg hast, kopiere die Analysedetails von der "
+"<u>Analysedetailsseite</u> in Dein bevorzugtes Forum. <b>\n"
+"\n"
+"Hinweis:</b> Der Inhalt der Detailergebnisseite befindet sich schon in der "
+"Zwischenablage und kann somit schnell kopiert werden"
+
+#: collectNWDataGUI.py:547
+msgid "file"
+msgstr "Datei"
+
+#: collectNWDataGUI.py:548
+msgid "debugGUI"
+msgstr "GUI Fehlerdiagnose ein-/ausschalten"
+
+#: collectNWDataGUI.py:549
+msgid "debugScript"
+msgstr "Script Fehlerdiagnose ein-/ausschalten"
+
+#: collectNWDataGUI.py:550
+msgid "cancel"
+msgstr "Beenden"
+
+#: collectNWDataGUI.py:552
+msgid "help"
+msgstr "Hilfe"
+
+#: collectNWDataGUI.py:553
+msgid "about"
+msgstr "Über"
+
+#: collectNWDataGUI.py:555
+msgid "Analysis summary"
+msgstr "Analyseergebnisse"
+
+#: collectNWDataGUI.py:556
+msgid "ReportToolTip"
+msgstr "Analyseergebnisse und Links zu Webseiten, die weitere Hilfe geben"
+
+#: collectNWDataGUI.py:558
+msgid "Analysis details"
+msgstr "Analysedetails"
+
+#: collectNWDataGUI.py:559
+msgid "DetailsToolTip"
+msgstr ""
+"Detaillierte Informationen über die Netzwerkonfiguration, welche in einem "
+"Forum gepostet werden können und anderen Leuten hilft, Deine "
+"Netzwerkprobleme zu lösen"
+
+#: collectNWDataGUI.py:561
+msgid "Debug info"
+msgstr "Problemanalyseinformationen"
+
+#: collectNWDataGUI.py:563
+msgid "Please wait"
+msgstr "<b><big>Bitte Geduld</big></b>"
+
+#: collectNWDataGUI.py:564
+msgid "Collecting data and analyzing system"
+msgstr "Daten werden gesammelt und analysiert"
+
+#: collectNWDataGUI.py:635
+msgid "WLAN Accesspoint <-> Client"
+msgstr "WLAN Accesspoint <-> Zielrechner"
+
+#: collectNWDataGUI.py:635
+msgid "WLAN Accesspoint <-> LinuxRouter <-> Client"
+msgstr "WLAN Accesspoint <-> Linux Router <-> Zielrechner"
+
+#: collectNWDataGUI.py:635
+msgid "WLAN Hardwarerouter <-> Client"
+msgstr "WLAN Hardwarerouter <-> Zielrechner"
+
+#: collectNWDataGUI.py:635
+msgid "WLAN Hardwarerouter <-> LinuxRouter <-> Client"
+msgstr "WLAN Hardwarerouter <-> Linux Router <-> Zielrechner"
+
+#: collectNWDataGUI.py:636
+msgid "DSL Hardwarerouter <-> Client"
+msgstr "DSL Hardwarerouter <-> Zielrechner"
+
+#: collectNWDataGUI.py:636
+msgid "DSL Hardwarerouter <-> LinuxRouter <-> Client"
+msgstr "DSL Hardwarerouter <-> Linux Router <-> Zielrechner"
+
+#: collectNWDataGUI.py:636
+msgid "DSL Modem <-> Client"
+msgstr "DSL Modem <-> Zielrechner"
+
+#: collectNWDataGUI.py:636
+msgid "DSL Modem <-> LinuxRouter <-> Client"
+msgstr "DSL Modem <-> Linux Router <-> Zielrechner"
+
+#: collectNWDataGUI.py:637
+msgid "Linux Client"
+msgstr "Linux Zielrechner"
+
+#: collectNWDataGUI.py:637
+msgid "Linux Router"
+msgstr "Linux Router"
+
+#: collectNWDataGUI.py:779
+msgid "Processing canceled"
+msgstr "collectNWData.sh wurde abgebrochen"
+
+#: collectNWDataGUI.py:825
+msgid "Cancel requested during processing"
+msgstr "Ausführung von collectNWData.sh wurde unterbrochen"
+
+#: collectNWDataGUI.py:866
+msgid "Cleaning output files"
+msgstr "Die Ergebnisdateien werden gelöscht"
+
+#: collectNWDataGUI.py:886
+msgid "Prompting for root pwd"
+msgstr "Root Kennwort wird abgefragt"
+
+#: collectNWDataGUI.py:899
+msgid "Cleaning root PWD in prompt"
+msgstr "Root Kennwort gelöscht"
+
+#: collectNWDataGUI.py:925
+msgid "Invalid password entered processing message"
+msgstr "Ungültiges root Kennwort eingegeben"
+
+#: collectNWDataGUI.py:935
+msgid "Error running collectNWData.sh ExitCode %s"
+msgstr "Es ist ein Fehler in collectNWData.sh aufgetreten. ErgebnisCode %s"
+
+#: collectNWDataGUI.py:963
+msgid "Reading analysis details"
+msgstr "Analysedetails werden gelesen"
+
+#: collectNWDataGUI.py:999
+msgid "Copying detailed analysis result into clipboard"
+msgstr "Die detailierten Ergebnisse werden ins Clipboard kopiert"
+
+#: collectNWDataGUI.py:1021
+msgid "collectNWData.sh finished"
+msgstr "collectNWData.sh hat geendet"
+
+#: collectNWDataGUI.py:1053
+msgid "Running collectNWData.sh"
+msgstr "collectNWData.sh wird gestartet"
+
+#: collectNWDataGUI.py:1070
+msgid "Reading screen output from collectNWData.sh"
+msgstr "Bildschirmausgaben von collectNWData.sh werden gelesen"
+
+#: collectNWDataGUI.py:1092
+msgid "Finished script execution"
+msgstr "collectNWData.sh hat geendet"

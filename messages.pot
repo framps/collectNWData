@@ -1,0 +1,338 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR ORGANIZATION
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2012-11-04 13:28+CET\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: ENCODING\n"
+"Generated-By: pygettext.py 1.5\n"
+
+
+#: collectNWDataGUI.py:168
+msgid "Unable to derive desktop path"
+msgstr ""
+
+#: collectNWDataGUI.py:284
+msgid "Unable to calculate md5sum"
+msgstr ""
+
+#: collectNWDataGUI.py:289
+msgid "different md5sum. Website: %s file: %s"
+msgstr ""
+
+#: collectNWDataGUI.py:291
+msgid "Unable to retrieve md5 checksum from %s. rc: %s"
+msgstr ""
+
+#: collectNWDataGUI.py:298
+msgid "%s will be uninstalled"
+msgstr ""
+
+#: collectNWDataGUI.py:310
+msgid "Deleting file %s"
+msgstr ""
+
+#: collectNWDataGUI.py:314
+msgid "Uninstallation of %s finished"
+msgstr ""
+
+#: collectNWDataGUI.py:316
+msgid "%s not installed"
+msgstr ""
+
+#: collectNWDataGUI.py:323
+msgid "%s will be installed"
+msgstr ""
+
+#: collectNWDataGUI.py:331 collectNWDataGUI.py:341 collectNWDataGUI.py:350
+#: collectNWDataGUI.py:368
+msgid "Creating file %s"
+msgstr ""
+
+#: collectNWDataGUI.py:366
+msgid "Unable to create desktop start icon"
+msgstr ""
+
+#: collectNWDataGUI.py:384
+msgid "Installation of %s finished"
+msgstr ""
+
+#: collectNWDataGUI.py:499
+msgid "Invoke script as root"
+msgstr ""
+
+#: collectNWDataGUI.py:500
+msgid "RootToolTip"
+msgstr ""
+
+#: collectNWDataGUI.py:503
+msgid "Are you sure you want to disable root invocation"
+msgstr ""
+
+#: collectNWDataGUI.py:504
+msgid "This will reduce the analysis capabilities"
+msgstr ""
+
+#: collectNWDataGUI.py:507
+msgid "Enter root password"
+msgstr ""
+
+#: collectNWDataGUI.py:508
+msgid "Script should be executed as root"
+msgstr ""
+
+#: collectNWDataGUI.py:511
+msgid "Invalid root password"
+msgstr ""
+
+#: collectNWDataGUI.py:512
+msgid "Enter correct root password"
+msgstr ""
+
+#: collectNWDataGUI.py:514
+msgid "Localized messages"
+msgstr ""
+
+#: collectNWDataGUI.py:515
+msgid "InternationalToolTip"
+msgstr ""
+
+#: collectNWDataGUI.py:517
+msgid "Wired"
+msgstr ""
+
+#: collectNWDataGUI.py:518
+msgid "WiredToolTip"
+msgstr ""
+
+#: collectNWDataGUI.py:519
+msgid "Wireless"
+msgstr ""
+
+#: collectNWDataGUI.py:520
+msgid "WirelessToolTip"
+msgstr ""
+
+#: collectNWDataGUI.py:522
+msgid "OK"
+msgstr ""
+
+#: collectNWDataGUI.py:523
+msgid "OKToolTip"
+msgstr ""
+
+#: collectNWDataGUI.py:525
+msgid "Cancel"
+msgstr ""
+
+#: collectNWDataGUI.py:526
+msgid "CancelToolTip"
+msgstr ""
+
+#: collectNWDataGUI.py:528
+msgid "SSIDEntryField"
+msgstr ""
+
+#: collectNWDataGUI.py:529
+msgid "SSID"
+msgstr ""
+
+#: collectNWDataGUI.py:530
+msgid "SSIDToolTip"
+msgstr ""
+
+#: collectNWDataGUI.py:532
+msgid "SSID missing"
+msgstr ""
+
+#: collectNWDataGUI.py:533
+msgid "Please enter SSID of your accesspoint"
+msgstr ""
+
+#: collectNWDataGUI.py:535
+msgid "Topology"
+msgstr ""
+
+#: collectNWDataGUI.py:536
+msgid "TopologyToolTip"
+msgstr ""
+
+#: collectNWDataGUI.py:537
+msgid "TopologyComboToolTip"
+msgstr ""
+
+#: collectNWDataGUI.py:539
+msgid "Execution"
+msgstr ""
+
+#: collectNWDataGUI.py:540
+msgid "ExecutionToolTip"
+msgstr ""
+
+#: collectNWDataGUI.py:541
+msgid "ExecutionComboToolTip"
+msgstr ""
+
+#: collectNWDataGUI.py:542
+msgid "Connection type"
+msgstr ""
+
+#: collectNWDataGUI.py:544
+msgid "Network problem analysis complete"
+msgstr ""
+
+#: collectNWDataGUI.py:545
+msgid "Please execute following steps"
+msgstr ""
+
+#: collectNWDataGUI.py:547
+msgid "file"
+msgstr ""
+
+#: collectNWDataGUI.py:548
+msgid "debugGUI"
+msgstr ""
+
+#: collectNWDataGUI.py:549
+msgid "debugScript"
+msgstr ""
+
+#: collectNWDataGUI.py:550
+msgid "cancel"
+msgstr ""
+
+#: collectNWDataGUI.py:552
+msgid "help"
+msgstr ""
+
+#: collectNWDataGUI.py:553
+msgid "about"
+msgstr ""
+
+#: collectNWDataGUI.py:555
+msgid "Analysis summary"
+msgstr ""
+
+#: collectNWDataGUI.py:556
+msgid "ReportToolTip"
+msgstr ""
+
+#: collectNWDataGUI.py:558
+msgid "Analysis details"
+msgstr ""
+
+#: collectNWDataGUI.py:559
+msgid "DetailsToolTip"
+msgstr ""
+
+#: collectNWDataGUI.py:561
+msgid "Debug info"
+msgstr ""
+
+#: collectNWDataGUI.py:563
+msgid "Please wait"
+msgstr ""
+
+#: collectNWDataGUI.py:564
+msgid "Collecting data and analyzing system"
+msgstr ""
+
+#: collectNWDataGUI.py:635
+msgid "WLAN Accesspoint <-> Client"
+msgstr ""
+
+#: collectNWDataGUI.py:635
+msgid "WLAN Accesspoint <-> LinuxRouter <-> Client"
+msgstr ""
+
+#: collectNWDataGUI.py:635
+msgid "WLAN Hardwarerouter <-> Client"
+msgstr ""
+
+#: collectNWDataGUI.py:635
+msgid "WLAN Hardwarerouter <-> LinuxRouter <-> Client"
+msgstr ""
+
+#: collectNWDataGUI.py:636
+msgid "DSL Hardwarerouter <-> Client"
+msgstr ""
+
+#: collectNWDataGUI.py:636
+msgid "DSL Hardwarerouter <-> LinuxRouter <-> Client"
+msgstr ""
+
+#: collectNWDataGUI.py:636
+msgid "DSL Modem <-> Client"
+msgstr ""
+
+#: collectNWDataGUI.py:636
+msgid "DSL Modem <-> LinuxRouter <-> Client"
+msgstr ""
+
+#: collectNWDataGUI.py:637
+msgid "Linux Client"
+msgstr ""
+
+#: collectNWDataGUI.py:637
+msgid "Linux Router"
+msgstr ""
+
+#: collectNWDataGUI.py:779
+msgid "Processing canceled"
+msgstr ""
+
+#: collectNWDataGUI.py:825
+msgid "Cancel requested during processing"
+msgstr ""
+
+#: collectNWDataGUI.py:866
+msgid "Cleaning output files"
+msgstr ""
+
+#: collectNWDataGUI.py:886
+msgid "Prompting for root pwd"
+msgstr ""
+
+#: collectNWDataGUI.py:899
+msgid "Cleaning root PWD in prompt"
+msgstr ""
+
+#: collectNWDataGUI.py:925
+msgid "Invalid password entered processing message"
+msgstr ""
+
+#: collectNWDataGUI.py:935
+msgid "Error running collectNWData.sh ExitCode %s"
+msgstr ""
+
+#: collectNWDataGUI.py:963
+msgid "Reading analysis details"
+msgstr ""
+
+#: collectNWDataGUI.py:999
+msgid "Copying detailed analysis result into clipboard"
+msgstr ""
+
+#: collectNWDataGUI.py:1021
+msgid "collectNWData.sh finished"
+msgstr ""
+
+#: collectNWDataGUI.py:1053
+msgid "Running collectNWData.sh"
+msgstr ""
+
+#: collectNWDataGUI.py:1070
+msgid "Reading screen output from collectNWData.sh"
+msgstr ""
+
+#: collectNWDataGUI.py:1092
+msgid "Finished script execution"
+msgstr ""
+

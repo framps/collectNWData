@@ -1,0 +1,367 @@
+# English translations for PACKAGE package.
+# Copyright (C) 2012 ORGANIZATION
+# framp <framp@linux-tips-and-tricks.de>, 2012.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-11-04 13:11+CET\n"
+"PO-Revision-Date: 2012-10-14 17:17+0100\n"
+"Last-Translator: framp <framp@linux-tips-and-tricks.de>\n"
+"Language-Team: English\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ASCII\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.5\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: collectNWDataGUI.py:168
+msgid "Unable to derive desktop path"
+msgstr "Unable to derive desktop path. xdg-user-dir is not installed"
+
+#: collectNWDataGUI.py:284
+msgid "Unable to calculate md5sum"
+msgstr "Unable to calculate checksum for collectNWDataGUI.sh. RC: %s"
+
+#: collectNWDataGUI.py:289
+msgid "different md5sum. Website: %s file: %s"
+msgstr ""
+"Checksum of collectNWDataGUI.sh (%s) does not match the one on the website (%s).\n"
+"That's either because there is already a new version of collectNWDataGUI.sh available or collectNWDataGUI.sh is corrupted"
+
+#: collectNWDataGUI.py:291
+msgid "Unable to retrieve md5 checksum from %s. rc: %s"
+msgstr "Unable to retrieve the checksum for %s from the internet. RC: %s"
+
+#: collectNWDataGUI.py:298
+msgid "%s will be uninstalled"
+msgstr "Uninstalling %s ..."
+
+#: collectNWDataGUI.py:310
+msgid "Deleting file %s"
+msgstr "    Deleting file %s"
+
+#: collectNWDataGUI.py:314
+msgid "Uninstallation of %s finished"
+msgstr "Uninstallation of %s finished"
+
+#: collectNWDataGUI.py:316
+msgid "%s not installed"
+msgstr "%s not installed"
+
+#: collectNWDataGUI.py:323
+msgid "%s will be installed"
+msgstr "Installing %s ..."
+
+#: collectNWDataGUI.py:331 collectNWDataGUI.py:341 collectNWDataGUI.py:350
+#: collectNWDataGUI.py:368
+msgid "Creating file %s"
+msgstr "    Creating file %s"
+
+#: collectNWDataGUI.py:366
+msgid "Unable to create desktop start icon"
+msgstr "Unable to create start icon on desktop"
+
+#: collectNWDataGUI.py:384
+msgid "Installation of %s finished"
+msgstr "Installation of %s finished"
+
+#: collectNWDataGUI.py:499
+msgid "Invoke script as root"
+msgstr "Invoke script as root"
+
+#: collectNWDataGUI.py:500
+msgid "RootToolTip"
+msgstr ""
+"Innvocation of the script as root is strongly recommended because as root "
+"it's possible to collect and analyze as much information as possible"
+
+#: collectNWDataGUI.py:503
+msgid "Are you sure you want to disable root invocation"
+msgstr "<b><big>Are you sure you want to disable root invocation</big></b>"
+
+#: collectNWDataGUI.py:504
+msgid "This will reduce the analysis capabilities"
+msgstr "This will disable a lot of analysis capabilities"
+
+#: collectNWDataGUI.py:507
+msgid "Enter root password"
+msgstr "<b><big>Enter root password</big></b>"
+
+#: collectNWDataGUI.py:508
+msgid "Script should be executed as root"
+msgstr ""
+"Script should be executed as root. Otherwise the analysis capabilities are "
+"reduced"
+
+#: collectNWDataGUI.py:511
+msgid "Invalid root password"
+msgstr "<b><big>Invalid root password</big></b>"
+
+#: collectNWDataGUI.py:512
+msgid "Enter correct root password"
+msgstr "Enter correct root password"
+
+#: collectNWDataGUI.py:514
+msgid "Localized messages"
+msgstr "Write localized messages"
+
+#: collectNWDataGUI.py:515
+msgid "InternationalToolTip"
+msgstr ""
+"Deselect this option if the analysis result should be posted in an "
+"international forum. Then the generated messages will be in English. "
+"Otherwise they are in your local language if supported"
+
+#: collectNWDataGUI.py:517
+msgid "Wired"
+msgstr "Wired"
+
+#: collectNWDataGUI.py:518
+msgid "WiredToolTip"
+msgstr "Select this if you want to analyze your wired connection"
+
+#: collectNWDataGUI.py:519
+msgid "Wireless"
+msgstr "Wireless"
+
+#: collectNWDataGUI.py:520
+msgid "WirelessToolTip"
+msgstr "Select this if you want to analyze your wireless connection"
+
+#: collectNWDataGUI.py:522
+msgid "OK"
+msgstr "OK"
+
+#: collectNWDataGUI.py:523
+msgid "OKToolTip"
+msgstr "Start analysis script collectNWData.sh"
+
+#: collectNWDataGUI.py:525
+msgid "Cancel"
+msgstr "Quit"
+
+#: collectNWDataGUI.py:526
+msgid "CancelToolTip"
+msgstr "Terminate program"
+
+#: collectNWDataGUI.py:528
+msgid "SSIDEntryField"
+msgstr "Enter the SSID of your WLAN"
+
+#: collectNWDataGUI.py:529
+msgid "SSID"
+msgstr "WLAN identifier"
+
+#: collectNWDataGUI.py:530
+msgid "SSIDToolTip"
+msgstr "The SSID of your accesspoint is the WLAN identifier"
+
+#: collectNWDataGUI.py:532
+msgid "SSID missing"
+msgstr "<b><big>SSID missing</big></b>"
+
+#: collectNWDataGUI.py:533
+msgid "Please enter SSID of your accesspoint"
+msgstr "Please enter SSID of your accesspoint"
+
+#: collectNWDataGUI.py:535
+msgid "Topology"
+msgstr "Topology"
+
+#: collectNWDataGUI.py:536
+msgid "TopologyToolTip"
+msgstr ""
+"The topologie describes how the involved network components are connected. "
+"For further details see the dropdrown box to the right"
+
+#: collectNWDataGUI.py:537
+msgid "TopologyComboToolTip"
+msgstr ""
+"The topology describes the connections between your networking components\n"
+"1) Client to check is connected to a WLAN Accesspoint\n"
+"2) Client to check is connected to a WLAN routerwhich loas has a WLAN "
+"accesspoint\n"
+"3) Same as 1, but there is a Linuxrouter connected in between\n"
+"4) Same as 2, but there is a Linuxrouter connected in between"
+
+#: collectNWDataGUI.py:539
+msgid "Execution"
+msgstr "Execution host"
+
+#: collectNWDataGUI.py:540
+msgid "ExecutionToolTip"
+msgstr "Define which host you execute the script on"
+
+#: collectNWDataGUI.py:541
+msgid "ExecutionComboToolTip"
+msgstr ""
+"Host you execute the script on. It's either the client or the linux router"
+
+#: collectNWDataGUI.py:542
+msgid "Connection type"
+msgstr "Connection type"
+
+#: collectNWDataGUI.py:544
+msgid "Network problem analysis complete"
+msgstr "<b><big>Network problem analysis complete</big></b>"
+
+#: collectNWDataGUI.py:545
+msgid "Please execute following steps"
+msgstr ""
+"<b>1)</b> Read the analysis result on the <u>Analysis Summary page</u> and "
+"follow the instructions and try to solve the problem on your own first.\n"
+"\n"
+"<b>2)</b> If you are unsuccessfull copy the analysis details from the "
+"<u>Analysis Details page</u> into your favorite forum.\n"
+"\n"
+"<b>Note:</b> The contents of the details page is already available in the "
+"clipboard"
+
+#: collectNWDataGUI.py:547
+msgid "file"
+msgstr "File"
+
+#: collectNWDataGUI.py:548
+msgid "debugGUI"
+msgstr "GUI debugging"
+
+#: collectNWDataGUI.py:549
+msgid "debugScript"
+msgstr "Script debugging"
+
+#: collectNWDataGUI.py:550
+msgid "cancel"
+msgstr "Quit"
+
+#: collectNWDataGUI.py:552
+msgid "help"
+msgstr "Help"
+
+#: collectNWDataGUI.py:553
+msgid "about"
+msgstr "About"
+
+#: collectNWDataGUI.py:555
+msgid "Analysis summary"
+msgstr "Analysis summary"
+
+#: collectNWDataGUI.py:556
+msgid "ReportToolTip"
+msgstr "Analysis results and links to websites which will give additional help"
+
+#: collectNWDataGUI.py:558
+msgid "Analysis details"
+msgstr "Analysis details"
+
+#: collectNWDataGUI.py:559
+msgid "DetailsToolTip"
+msgstr ""
+"Detailed information about the network configuration which can be pasted "
+"into a forum and helps other people to identify the network problem"
+
+#: collectNWDataGUI.py:561
+msgid "Debug info"
+msgstr "Debug output"
+
+#: collectNWDataGUI.py:563
+msgid "Please wait"
+msgstr "<b><big>Please wait</big></b>"
+
+#: collectNWDataGUI.py:564
+msgid "Collecting data and analyzing system"
+msgstr "Collecting data and analyzing system"
+
+#: collectNWDataGUI.py:635
+msgid "WLAN Accesspoint <-> Client"
+msgstr "WLAN Accesspoint <-> Client"
+
+#: collectNWDataGUI.py:635
+msgid "WLAN Accesspoint <-> LinuxRouter <-> Client"
+msgstr "WLAN Accesspoint <-> LinuxRouter <-> Client"
+
+#: collectNWDataGUI.py:635
+msgid "WLAN Hardwarerouter <-> Client"
+msgstr "WLAN Hardwarerouter <-> Client"
+
+#: collectNWDataGUI.py:635
+msgid "WLAN Hardwarerouter <-> LinuxRouter <-> Client"
+msgstr "WLAN Hardwarerouter <-> LinuxRouter <-> Client"
+
+#: collectNWDataGUI.py:636
+msgid "DSL Hardwarerouter <-> Client"
+msgstr "DSL Hardwarerouter <-> Client"
+
+#: collectNWDataGUI.py:636
+msgid "DSL Hardwarerouter <-> LinuxRouter <-> Client"
+msgstr "DSL Hardwarerouter <-> LinuxRouter <-> Client"
+
+#: collectNWDataGUI.py:636
+msgid "DSL Modem <-> Client"
+msgstr "DSL Modem <-> Client"
+
+#: collectNWDataGUI.py:636
+msgid "DSL Modem <-> LinuxRouter <-> Client"
+msgstr "DSL Modem <-> LinuxRouter <-> Client"
+
+#: collectNWDataGUI.py:637
+msgid "Linux Client"
+msgstr "Linux Client"
+
+#: collectNWDataGUI.py:637
+msgid "Linux Router"
+msgstr "Linux Router"
+
+#: collectNWDataGUI.py:779
+msgid "Processing canceled"
+msgstr "Processing canceled"
+
+#: collectNWDataGUI.py:825
+msgid "Cancel requested during processing"
+msgstr "Cancel requested during processing"
+
+#: collectNWDataGUI.py:866
+msgid "Cleaning output files"
+msgstr "Cleaning output files"
+
+#: collectNWDataGUI.py:886
+msgid "Prompting for root pwd"
+msgstr "Prompting for root pwd"
+
+#: collectNWDataGUI.py:899
+msgid "Cleaning root PWD in prompt"
+msgstr "Cleaning root PWD in prompt"
+
+#: collectNWDataGUI.py:925
+msgid "Invalid password entered processing message"
+msgstr "Invalid root password entered"
+
+#: collectNWDataGUI.py:935
+msgid "Error running collectNWData.sh ExitCode %s"
+msgstr "Error running collectNWData.sh ExitCode %s"
+
+#: collectNWDataGUI.py:963
+msgid "Reading analysis details"
+msgstr "Reading analysis details"
+
+#: collectNWDataGUI.py:999
+msgid "Copying detailed analysis result into clipboard"
+msgstr "Copying detailed analysis result into clipboard"
+
+#: collectNWDataGUI.py:1021
+msgid "collectNWData.sh finished"
+msgstr "collectNWData.sh finished"
+
+#: collectNWDataGUI.py:1053
+msgid "Running collectNWData.sh"
+msgstr "Running collectNWData.sh"
+
+#: collectNWDataGUI.py:1070
+msgid "Reading screen output from collectNWData.sh"
+msgstr "Reading screen output from collectNWData.sh"
+
+#: collectNWDataGUI.py:1092
+msgid "Finished script execution"
+msgstr "Finished script execution"
