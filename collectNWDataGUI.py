@@ -82,7 +82,7 @@ from CommandExecutor import CommandExecutor
 
 CVS_DATE=' '.join("$Date: 2014/05/07 20:55:33 $".split(' ')[1:-1])+ " UTC"
 CVS_REVISION=' '.join("$Revision: 1.98 $".split(' ')[1:-1])
-VERSION="V0.1.2b"
+VERSION="V0.1.3"
 
 WINDOW_SIZE_INITIAL=(600,400)
 WINDOW_SIZE_FINAL=(800,600)
