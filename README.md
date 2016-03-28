@@ -1,6 +1,6 @@
 === Summary ===
 
-A lot of time network problems are posted in foren in order to find people to help to solve them. A lot of problems are configuration problems which can be fixed easily by the problem poster. This script collects a lot of network information and passes them to the NWEliza component, which analyzes them for common configuration errors. Errormessages point to webpages on this website which help to fix the problems.
+A lot of time network problems are posted in forums in order to find people to help to solve them. A lot of problems are configuration problems which can be fixed easily by the problem poster. This script collects a lot of network information and passes them to the NWEliza component, which analyzes them for common configuration errors. Errormessages point to webpages on this website which help to fix the problems.
 
 If there is no way to get the problem fixed the collected information is very helpful to be posted in a forum. Thus people don't have to ask every time the same questions and ak for the same information. To speed up the problem solving process the resulting file of the script can be posted which might enable people to give an answer directly or to ask specific question to fix the problem.
 
