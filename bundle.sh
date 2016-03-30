@@ -18,6 +18,9 @@
 rm -f collectNWData.txt
 rm -f collectNWDataGUI.pyc
 rm -fr ~/collectNWDataTest/*
+if [[ ! -d buildResults ]]; then
+   mkdir buildResults
+fi
 zip buildResults/collectNWDataGUII18N.zip -r locale/* -x \*CVS\*
 python ModulizeFiles.py
 rm buildResults/collectNWDataGUII18N.zip 
