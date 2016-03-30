@@ -18,7 +18,8 @@ Download of the script is possible on http://www.linux-tips-and-tricks.de/en/qui
 
 === Bundle and test collectNWDataGUI.sh ===
 
+1) The script will be built in directory buildResults
+2) To test the build collectNWDataGUI.sh is called such that the whole code is extracted and the GUI will start
+
 git clone https://github.com/framps/collectNWData.git
 ./bundle.sh
-# 1) The script is now be available in directory buildResults
-# 2) collectNWDataGUI.sh is called such that the whole code is extracted and the GUI will start
