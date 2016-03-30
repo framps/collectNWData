@@ -6,7 +6,7 @@ If there is no way to get the problem fixed the collected information is very he
 
 collectNWData.sh is a shell script which helps everybody who has networkproblems on a Linux system to fix them. The system will be analyzed for common network configuration errors and error messages which help to solve the problem on your own will be created.If the network problem is an special problem the collected network information helps people in Linux forums to identify the network problems very fast and to help to solve them. 
 
-collectNWDataGUI.sh is a GUI frontend for collectNWData.sh
+collectNWDataGUI.sh is the corresponding GUI frontend for collectNWData.sh
 
 ### Documentation 
  
