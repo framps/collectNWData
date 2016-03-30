@@ -50,7 +50,7 @@
 #################################################################################
 #################################################################################
 
-CVS_VERSION="V0.7.5.3"
+CVS_VERSION="V0.7.5.6"
 CVS_REVISION="$Revision: 1.385 $"
 CVS_DATE="$Date: 2016/03/27 10:49:01 $"
 CVS_DATE_ONLY=${CVS_DATE/: /}
@@ -62,9 +62,7 @@ AUTHOR="framp at linux-tips-and-tricks dot de"
 COPYRIGHT="Copyright (C) 2006-2016 ${AUTHOR}"
 #VERSION="$CVS_VERSION (Rev: ${CVS_REVISION_ONLY}, Build: ${CVS_DATE_ONLY} UTC)"
 VERSION="$CVS_VERSION"
-LICENSE="This program comes with ABSOLUTELY NO WARRANTY; 
-This is free software, and you are welcome to redistribute it
-under certain conditions"
+LICENSE="This program comes with ABSOLUTELY NO WARRANTY; This is free software, and you are welcome to redistribute it under certain conditions"
 
 BASEURL="www.linux-tips-and-tricks.de"
 CONTACT="framp@linux-tips-and-tricks.de"
@@ -4285,6 +4283,7 @@ function collectNWData () {   #listOnly
 function usage () { # exitcode
 
    echo -e $VERSION_STRING 
+   echo ""
    echo $LICENSE
    echo "Analyze system for common network configuration problems"
    echo "and collect network problem determination information for futher problem determination"
@@ -4390,6 +4389,7 @@ do
       fi;;
    u) USE_USER_AS_PARM=1;;
    v) echo -e $VERSION_STRING;
+	  echo ""
 	  echo $LICENSE
       exit 0;;
    \?) echo "Unknown option \"-$OPTARG\"."
@@ -4430,6 +4430,7 @@ fi
 if [[ $CND_VERSION_STRING == "" ]]; then
    echo
    echo -e $VERSION_STRING
+   echo
    echo $LICENSE
    echo
    export CND_VERSION_STRING=$VERSION_STRING
@@ -4598,7 +4599,8 @@ rm -f "$COLLECT_RESULT" 2>/dev/null
 echo $CODE_BEGIN >> "$FINAL_RESULT"
 
 echo "$VERSION_STRING" >> "$FINAL_RESULT"
-echo "$COPYRIGHT" >> "$FINAL_RESULT"
+echo "" >> "$FINAL_RESULT"
+echo "$LICENSE" >> "$FINAL_RESULT"
 
 if [[ $DISTRO == $UNKNOWN_DISTRO ]]; then
    echo $MSG_DISTRO_NOT_SUPPORTED
@@ -4625,7 +4627,7 @@ PNINused
 configReadable
 
 writeToEliza $MSG_EMPTY_LINE
-writeToEliza $MSG_START_COLLECTING
+writeToEliza $MSG_START_COLLECTING $FINAL_RESULT_SHORT_NAME
 
 detectInterfaces
 collectNWData
