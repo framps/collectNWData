@@ -8,14 +8,20 @@ collectNWData.sh is a shell script which helps everybody who has networkproblems
 
 collectNWDataGUI.sh is a GUI frontend for collectNWData.sh
 
+---
+
 ### Documentation 
  
 Documentation about collectNWData is available [here](http://www.linux-tips-and-tricks.de/en/details/)
+
+---
 
 ### Downloads
 
 Download of collectNWData.sh is possible [here](http://linux-tips-and-tricks.de/downloads/collectnwdata-sh/detail)
 Download of GUI collectNWDataGUI.sh is possible [here](http://www.linux-tips-and-tricks.de/en/downloads/collectnwdatagui-sh/detail/)
+
+---
 
 ### Bundle and test collectNWDataGUI.sh 
 
