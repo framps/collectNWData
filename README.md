@@ -12,13 +12,14 @@ collectNWDataGUI.sh is a GUI frontend for collectNWData.sh
  
 Documentation about collectNWData is available [here](http://www.linux-tips-and-tricks.de/en/details/)
 
-### Download 
+### Downloads
 
-Download of the script is possible [here](http://www.linux-tips-and-tricks.de/en/quickstart/)
+Download of collectNWData.sh is possible [here](http://linux-tips-and-tricks.de/downloads/collectnwdata-sh/detail)
+Download of GUI collectNWDataGUI.sh is possible [here](http://www.linux-tips-and-tricks.de/en/downloads/collectnwdatagui-sh/detail/)
 
 ### Bundle and test collectNWDataGUI.sh 
 
-1. The script will be built in directory buildResults
+1. The script will bundle all resoures required in collectNWDataGUI.sh which will be created in directory buildResults
 2. To test the build collectNWDataGUI.sh is called such that the whole code is extracted and the GUI will start
 
 ```
