@@ -20,6 +20,8 @@ collectNWDataGUI.sh is the corresponding GUI frontend for collectNWData.sh
 
 ### Bundling and test of collectNWDataGUI.sh 
 
+collectNWDataGUI requires multiple resources in order to execute. In order to hide this complexity for the user all these resources are bundled in one shell script which extracts all these resources and finally invokes collectNWDataGUI.py.
+
 1. The script will bundle all resoures required in collectNWDataGUI.sh which will be created in directory buildResults
 2. To test the build collectNWDataGUI.sh is called such that the whole code is extracted and the GUI will start
 
