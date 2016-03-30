@@ -8,22 +8,16 @@ collectNWData.sh is a shell script which helps everybody who has networkproblems
 
 collectNWDataGUI.sh is a GUI frontend for collectNWData.sh
 
----
-
 ### Documentation 
  
 Documentation about collectNWData is available [here](http://www.linux-tips-and-tricks.de/en/details/)
-
----
 
 ### Downloads 
 
 1. Download of collectNWData.sh is possible [here](http://linux-tips-and-tricks.de/downloads/collectnwdata-sh/detail)
 2. Download of GUI collectNWDataGUI.sh is possible [here](http://www.linux-tips-and-tricks.de/en/downloads/collectnwdatagui-sh/detail/)
 
----
-
-### Bundle and test collectNWDataGUI.sh 
+### Bundling and test of collectNWDataGUI.sh 
 
 1. The script will bundle all resoures required in collectNWDataGUI.sh which will be created in directory buildResults
 2. To test the build collectNWDataGUI.sh is called such that the whole code is extracted and the GUI will start
@@ -33,11 +27,9 @@ git clone https://github.com/framps/collectNWData.git
 ./bundle.sh
 ```
 
----
-
 ### CVS history
 
 CVS was used as a code repository for development and not migrate into this git repo. The history is avaiable at
 
-1. [collectNWData.sh](http://www.linux-tips-and-tricks.de/de/weitere-info/155-collectnwdata-sh-version-history/)
-2. [collectNWDataGUI.py](http://www.linux-tips-and-tricks.de/en/details/473-collectnwdatagui-py-version-history/)
+1. [collectNWData](http://www.linux-tips-and-tricks.de/de/weitere-info/155-collectnwdata-sh-version-history/)
+2. [collectNWDataGUI](http://www.linux-tips-and-tricks.de/en/details/473-collectnwdatagui-py-version-history/)
