@@ -1,4 +1,4 @@
-=== Summary ===
+### Summary 
 
 A lot of time network problems are posted in forums in order to find people to help to solve them. A lot of problems are configuration problems which can be fixed easily by the problem poster. This script collects a lot of network information and passes them to the NWEliza component, which analyzes them for common configuration errors. Errormessages point to webpages on this website which help to fix the problems.
 
@@ -8,18 +8,20 @@ collectNWData.sh is a shell script which helps everybody who has networkproblems
 
 collectNWDataGUI.sh is a GUI frontend for collectNWData.sh
 
-=== Documentation ===
+### Documentation 
  
-Documentation about collectNWData is available on http://www.linux-tips-and-tricks.de/en/details/
+Documentation about collectNWData is available [here](http://www.linux-tips-and-tricks.de/en/details/)
 
-=== Download ===
+### Download 
 
-Download of the script is possible on http://www.linux-tips-and-tricks.de/en/quickstart/
+Download of the script is possible [here](http://www.linux-tips-and-tricks.de/en/quickstart/)
 
-=== Bundle and test collectNWDataGUI.sh ===
+### Bundle and test collectNWDataGUI.sh 
 
-1) The script will be built in directory buildResults
-2) To test the build collectNWDataGUI.sh is called such that the whole code is extracted and the GUI will start
+1. The script will be built in directory buildResults
+2. To test the build collectNWDataGUI.sh is called such that the whole code is extracted and the GUI will start
 
+```
 git clone https://github.com/framps/collectNWData.git
 ./bundle.sh
+```
