@@ -15,3 +15,10 @@ Documentation about collectNWData is available on http://www.linux-tips-and-tric
 === Download ===
 
 Download of the script is possible on http://www.linux-tips-and-tricks.de/en/quickstart/
+
+=== Bundle and test collectNWDataGUI.sh ===
+
+git clone https://github.com/framps/collectNWData.git
+./bundle.sh
+# 1) The script is now be available in directory buildResults
+# 2) collectNWDataGUI.sh is called such that the whole code is extracted and the GUI will start
