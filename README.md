@@ -10,7 +10,8 @@ collectNWDataGUI.sh is a GUI frontend for collectNWData.sh
 
 ### Documentation 
  
-[Documentation about collectNWData](http://www.linux-tips-and-tricks.de/en/details/)
+1. [collectNWData](http://www.linux-tips-and-tricks.de/en/overview/)
+2. [collectNWDataGUI](http://www.linux-tips-and-tricks.de/en/details/301-graphical-interface-for-collectnwdata-sh-2/)
 
 ### Downloads of executable code
 
