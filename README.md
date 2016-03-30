@@ -16,10 +16,10 @@ Documentation about collectNWData is available [here](http://www.linux-tips-and-
 
 ---
 
-### Downloads
+### Downloads 
 
-Download of collectNWData.sh is possible [here](http://linux-tips-and-tricks.de/downloads/collectnwdata-sh/detail)
-Download of GUI collectNWDataGUI.sh is possible [here](http://www.linux-tips-and-tricks.de/en/downloads/collectnwdatagui-sh/detail/)
+1. Download of collectNWData.sh is possible [here](http://linux-tips-and-tricks.de/downloads/collectnwdata-sh/detail)
+2. Download of GUI collectNWDataGUI.sh is possible [here](http://www.linux-tips-and-tricks.de/en/downloads/collectnwdatagui-sh/detail/)
 
 ---
 
