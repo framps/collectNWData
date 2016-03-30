@@ -19,8 +19,8 @@ Download of GUI collectNWDataGUI.sh is possible [here](http://www.linux-tips-and
 
 ### Bundle and test collectNWDataGUI.sh 
 
-1 The script will bundle all resoures required in collectNWDataGUI.sh which will be created in directory buildResults
-2 To test the build collectNWDataGUI.sh is called such that the whole code is extracted and the GUI will start
+1. The script will bundle all resoures required in collectNWDataGUI.sh which will be created in directory buildResults
+2. To test the build collectNWDataGUI.sh is called such that the whole code is extracted and the GUI will start
 
 ```
 git clone https://github.com/framps/collectNWData.git
