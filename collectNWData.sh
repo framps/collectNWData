@@ -50,9 +50,9 @@
 #################################################################################
 #################################################################################
 
-CVS_VERSION="V0.7.5.6"
-CVS_REVISION="$Revision: 1.385 $"
-CVS_DATE="$Date: 2016/03/27 10:49:01 $"
+CVS_VERSION="V0.7.5.7"
+CVS_REVISION="$Revision: 1.391 $"
+CVS_DATE="$Date: 2016/04/06 19:16:06 $"
 CVS_DATE_ONLY=${CVS_DATE/: /}
 CVS_DATE_ONLY=${CVS_DATE_ONLY/ \$/}
 CVS_REVISION_ONLY=${CVS_REVISION/: /}
@@ -4092,6 +4092,8 @@ $mask="@@@@@@";
                                                 # Arch ->
              "WLAN_KEY" => 1,                   # Slackware -> /etc/rc.d/rc.inet1.conf
              "WPAPSK" => 1,
+             "ESSID" => 1,						# mageia5
+             "NAME" => 1,						
         );
 
 
