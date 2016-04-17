@@ -32,7 +32,7 @@ git clone https://github.com/framps/collectNWData.git
 
 ### CVS history
 
-CVS was used as a code repository for development and not migrate into this git repo. The history is available at
+CVS was used as a code repository for development and not migrated into this git repo. The history is available at
 
 1. [collectNWData](http://www.linux-tips-and-tricks.de/de/weitere-info/155-collectnwdata-sh-version-history/)
 2. [collectNWDataGUI](http://www.linux-tips-and-tricks.de/en/details/473-collectnwdatagui-py-version-history/)
