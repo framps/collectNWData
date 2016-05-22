@@ -50,18 +50,24 @@
 #################################################################################
 #################################################################################
 
-CVS_VERSION="V0.7.5.7"
-CVS_REVISION="$Revision: 1.391 $"
-CVS_DATE="$Date: 2016/04/06 19:16:06 $"
-CVS_DATE_ONLY=${CVS_DATE/: /}
-CVS_DATE_ONLY=${CVS_DATE_ONLY/ \$/}
-CVS_REVISION_ONLY=${CVS_REVISION/: /}
-CVS_REVISION_ONLY=${CVS_REVISION_ONLY/ \$}
+VERSION="V0.7.5.8"
+
+MYSELF="${0##*/}"
+CODE_BEGIN="[code]"
+CODE_END="[/code]"
+DEBUG="off"
+
+GIT_DATE="$Date: 2016-05-22 10:05:57 +0200$"
+GIT_DATE_ONLY=${GIT_DATE/: /}
+GIT_DATE_ONLY=$(cut -f 2 -d ' ' <<< $GIT_DATE)
+GIT_TIME_ONLY=$(cut -f 3 -d ' ' <<< $GIT_DATE) 
+GIT_COMMIT="$Sha1: d9c25bc$"
+GIT_COMMIT_ONLY=$(cut -f 2 -d ' ' <<< $GIT_COMMIT | sed 's/\$//')
+
+GIT_CODEVERSION="$MYSELF $VERSION, $GIT_DATE_ONLY/$GIT_TIME_ONLY - $GIT_COMMIT_ONLY"
 
 AUTHOR="framp at linux-tips-and-tricks dot de"
 COPYRIGHT="Copyright (C) 2006-2016 ${AUTHOR}"
-#VERSION="$CVS_VERSION (Rev: ${CVS_REVISION_ONLY}, Build: ${CVS_DATE_ONLY} UTC)"
-VERSION="$CVS_VERSION"
 LICENSE="This program comes with ABSOLUTELY NO WARRANTY; This is free software, and you are welcome to redistribute it under certain conditions"
 
 BASEURL="www.linux-tips-and-tricks.de"
@@ -86,11 +92,6 @@ case $LANG in
         ;;
 esac;
 
-MYSELF="${0##*/}"
-CODE_BEGIN="[code]"
-CODE_END="[/code]"
-DEBUG="off"
-
 ESSID_MASK="§§§§§§§§";
 
 SEPARATOR="=================================================================================================================="
@@ -98,7 +99,7 @@ CMD_PREFIX="====="
 PROCESS_CHARS="|/-\\|/-"
 process_chars_cnt=0
 MINOR_SEPARATOR="------------------------------------------------------------------------------------------------------------------"
-VERSION_STRING="$MYSELF $VERSION $COPYRIGHT"
+VERSION_STRING="$GIT_CODEVERSION"
 NUMBER_OF_LINES_TO_CHECK_IN_VAR_LOG_MESSAGES=300
 MAX_ERROR_PERCENT=5                   # acceptable error rate on interfaces (xmit and rcv)
 

@@ -1,2 +1,4 @@
 buildResults/
 collectNWDataGUIResources.py
+*.pyc
+collectNWData.txt
