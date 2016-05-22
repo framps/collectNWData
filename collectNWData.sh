@@ -57,11 +57,11 @@ CODE_BEGIN="[code]"
 CODE_END="[/code]"
 DEBUG="off"
 
-GIT_DATE="$Date$"
+GIT_DATE="$Date: 2016-05-22 17:35:50 +0200$"
 GIT_DATE_ONLY=${GIT_DATE/: /}
 GIT_DATE_ONLY=$(cut -f 2 -d ' ' <<< $GIT_DATE)
 GIT_TIME_ONLY=$(cut -f 3 -d ' ' <<< $GIT_DATE) 
-GIT_COMMIT="$Sha1$"
+GIT_COMMIT="$Sha1: e8982e6$"
 GIT_COMMIT_ONLY=$(cut -f 2 -d ' ' <<< $GIT_COMMIT | sed 's/\$//')
 
 GIT_CODEVERSION="$MYSELF $VERSION $GIT_DATE_ONLY/$GIT_TIME_ONLY - $GIT_COMMIT_ONLY"
